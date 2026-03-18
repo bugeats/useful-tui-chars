@@ -18,8 +18,8 @@ const RANGES: &[(&str, u32, u32)] = &[
     ("Miscellaneous Symbols", 0x2600, 0x26FF),
     ("Miscellaneous Symbols and Arrows", 0x2B00, 0x2BFF),
     ("Symbols for Legacy Computing", 0x1FB00, 0x1FBFF),
-    ("Latin-1 Supplement", 0x0080, 0x00FF),
-    ("CJK Compatibility", 0x3300, 0x33FF),
+    ("Latin-1 Supplement", 0x00A0, 0x00FF),
+    ("CJK Compatibility", 0x3371, 0x33DF),
 ];
 
 fn main() {

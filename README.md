@@ -19,6 +19,8 @@ Character names are official designations from the [Unicode Character Database](
 - [Miscellaneous Symbols](#miscellaneous-symbols-256) (256)
 - [Miscellaneous Symbols and Arrows](#miscellaneous-symbols-and-arrows-256) (256)
 - [Symbols for Legacy Computing](#symbols-for-legacy-computing-256) (256)
+- [Latin-1 Supplement](#latin-1-supplement-96) (96)
+- [CJK Compatibility](#cjk-compatibility-111) (111)
 
 ## Box Drawing (128)
 
@@ -2569,4 +2571,221 @@ Character names are official designations from the [Unicode Character Database](
 | 🯽    | `\u{1FBFD}` |                                                                                          |
 | 🯾    | `\u{1FBFE}` |                                                                                          |
 | 🯿    | `\u{1FBFF}` |                                                                                          |
+
+## Latin-1 Supplement (96)
+
+| Char | Escape     | Name                                       |
+|------|------------|--------------------------------------------|
+|      | `\u{00A0}` | NO-BREAK SPACE                             |
+| ¡    | `\u{00A1}` | INVERTED EXCLAMATION MARK                  |
+| ¢    | `\u{00A2}` | CENT SIGN                                  |
+| £    | `\u{00A3}` | POUND SIGN                                 |
+| ¤    | `\u{00A4}` | CURRENCY SIGN                              |
+| ¥    | `\u{00A5}` | YEN SIGN                                   |
+| ¦    | `\u{00A6}` | BROKEN BAR                                 |
+| §    | `\u{00A7}` | SECTION SIGN                               |
+| ¨    | `\u{00A8}` | DIAERESIS                                  |
+| ©    | `\u{00A9}` | COPYRIGHT SIGN                             |
+| ª    | `\u{00AA}` | FEMININE ORDINAL INDICATOR                 |
+| «    | `\u{00AB}` | LEFT-POINTING DOUBLE ANGLE QUOTATION MARK  |
+| ¬    | `\u{00AC}` | NOT SIGN                                   |
+| ­     | `\u{00AD}` | SOFT HYPHEN                                |
+| ®    | `\u{00AE}` | REGISTERED SIGN                            |
+| ¯    | `\u{00AF}` | MACRON                                     |
+| °    | `\u{00B0}` | DEGREE SIGN                                |
+| ±    | `\u{00B1}` | PLUS-MINUS SIGN                            |
+| ²    | `\u{00B2}` | SUPERSCRIPT TWO                            |
+| ³    | `\u{00B3}` | SUPERSCRIPT THREE                          |
+| ´    | `\u{00B4}` | ACUTE ACCENT                               |
+| µ    | `\u{00B5}` | MICRO SIGN                                 |
+| ¶    | `\u{00B6}` | PILCROW SIGN                               |
+| ·    | `\u{00B7}` | MIDDLE DOT                                 |
+| ¸    | `\u{00B8}` | CEDILLA                                    |
+| ¹    | `\u{00B9}` | SUPERSCRIPT ONE                            |
+| º    | `\u{00BA}` | MASCULINE ORDINAL INDICATOR                |
+| »    | `\u{00BB}` | RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK |
+| ¼    | `\u{00BC}` | VULGAR FRACTION ONE QUARTER                |
+| ½    | `\u{00BD}` | VULGAR FRACTION ONE HALF                   |
+| ¾    | `\u{00BE}` | VULGAR FRACTION THREE QUARTERS             |
+| ¿    | `\u{00BF}` | INVERTED QUESTION MARK                     |
+| À    | `\u{00C0}` | LATIN CAPITAL LETTER A WITH GRAVE          |
+| Á    | `\u{00C1}` | LATIN CAPITAL LETTER A WITH ACUTE          |
+| Â    | `\u{00C2}` | LATIN CAPITAL LETTER A WITH CIRCUMFLEX     |
+| Ã    | `\u{00C3}` | LATIN CAPITAL LETTER A WITH TILDE          |
+| Ä    | `\u{00C4}` | LATIN CAPITAL LETTER A WITH DIAERESIS      |
+| Å    | `\u{00C5}` | LATIN CAPITAL LETTER A WITH RING ABOVE     |
+| Æ    | `\u{00C6}` | LATIN CAPITAL LETTER AE                    |
+| Ç    | `\u{00C7}` | LATIN CAPITAL LETTER C WITH CEDILLA        |
+| È    | `\u{00C8}` | LATIN CAPITAL LETTER E WITH GRAVE          |
+| É    | `\u{00C9}` | LATIN CAPITAL LETTER E WITH ACUTE          |
+| Ê    | `\u{00CA}` | LATIN CAPITAL LETTER E WITH CIRCUMFLEX     |
+| Ë    | `\u{00CB}` | LATIN CAPITAL LETTER E WITH DIAERESIS      |
+| Ì    | `\u{00CC}` | LATIN CAPITAL LETTER I WITH GRAVE          |
+| Í    | `\u{00CD}` | LATIN CAPITAL LETTER I WITH ACUTE          |
+| Î    | `\u{00CE}` | LATIN CAPITAL LETTER I WITH CIRCUMFLEX     |
+| Ï    | `\u{00CF}` | LATIN CAPITAL LETTER I WITH DIAERESIS      |
+| Ð    | `\u{00D0}` | LATIN CAPITAL LETTER ETH                   |
+| Ñ    | `\u{00D1}` | LATIN CAPITAL LETTER N WITH TILDE          |
+| Ò    | `\u{00D2}` | LATIN CAPITAL LETTER O WITH GRAVE          |
+| Ó    | `\u{00D3}` | LATIN CAPITAL LETTER O WITH ACUTE          |
+| Ô    | `\u{00D4}` | LATIN CAPITAL LETTER O WITH CIRCUMFLEX     |
+| Õ    | `\u{00D5}` | LATIN CAPITAL LETTER O WITH TILDE          |
+| Ö    | `\u{00D6}` | LATIN CAPITAL LETTER O WITH DIAERESIS      |
+| ×    | `\u{00D7}` | MULTIPLICATION SIGN                        |
+| Ø    | `\u{00D8}` | LATIN CAPITAL LETTER O WITH STROKE         |
+| Ù    | `\u{00D9}` | LATIN CAPITAL LETTER U WITH GRAVE          |
+| Ú    | `\u{00DA}` | LATIN CAPITAL LETTER U WITH ACUTE          |
+| Û    | `\u{00DB}` | LATIN CAPITAL LETTER U WITH CIRCUMFLEX     |
+| Ü    | `\u{00DC}` | LATIN CAPITAL LETTER U WITH DIAERESIS      |
+| Ý    | `\u{00DD}` | LATIN CAPITAL LETTER Y WITH ACUTE          |
+| Þ    | `\u{00DE}` | LATIN CAPITAL LETTER THORN                 |
+| ß    | `\u{00DF}` | LATIN SMALL LETTER SHARP S                 |
+| à    | `\u{00E0}` | LATIN SMALL LETTER A WITH GRAVE            |
+| á    | `\u{00E1}` | LATIN SMALL LETTER A WITH ACUTE            |
+| â    | `\u{00E2}` | LATIN SMALL LETTER A WITH CIRCUMFLEX       |
+| ã    | `\u{00E3}` | LATIN SMALL LETTER A WITH TILDE            |
+| ä    | `\u{00E4}` | LATIN SMALL LETTER A WITH DIAERESIS        |
+| å    | `\u{00E5}` | LATIN SMALL LETTER A WITH RING ABOVE       |
+| æ    | `\u{00E6}` | LATIN SMALL LETTER AE                      |
+| ç    | `\u{00E7}` | LATIN SMALL LETTER C WITH CEDILLA          |
+| è    | `\u{00E8}` | LATIN SMALL LETTER E WITH GRAVE            |
+| é    | `\u{00E9}` | LATIN SMALL LETTER E WITH ACUTE            |
+| ê    | `\u{00EA}` | LATIN SMALL LETTER E WITH CIRCUMFLEX       |
+| ë    | `\u{00EB}` | LATIN SMALL LETTER E WITH DIAERESIS        |
+| ì    | `\u{00EC}` | LATIN SMALL LETTER I WITH GRAVE            |
+| í    | `\u{00ED}` | LATIN SMALL LETTER I WITH ACUTE            |
+| î    | `\u{00EE}` | LATIN SMALL LETTER I WITH CIRCUMFLEX       |
+| ï    | `\u{00EF}` | LATIN SMALL LETTER I WITH DIAERESIS        |
+| ð    | `\u{00F0}` | LATIN SMALL LETTER ETH                     |
+| ñ    | `\u{00F1}` | LATIN SMALL LETTER N WITH TILDE            |
+| ò    | `\u{00F2}` | LATIN SMALL LETTER O WITH GRAVE            |
+| ó    | `\u{00F3}` | LATIN SMALL LETTER O WITH ACUTE            |
+| ô    | `\u{00F4}` | LATIN SMALL LETTER O WITH CIRCUMFLEX       |
+| õ    | `\u{00F5}` | LATIN SMALL LETTER O WITH TILDE            |
+| ö    | `\u{00F6}` | LATIN SMALL LETTER O WITH DIAERESIS        |
+| ÷    | `\u{00F7}` | DIVISION SIGN                              |
+| ø    | `\u{00F8}` | LATIN SMALL LETTER O WITH STROKE           |
+| ù    | `\u{00F9}` | LATIN SMALL LETTER U WITH GRAVE            |
+| ú    | `\u{00FA}` | LATIN SMALL LETTER U WITH ACUTE            |
+| û    | `\u{00FB}` | LATIN SMALL LETTER U WITH CIRCUMFLEX       |
+| ü    | `\u{00FC}` | LATIN SMALL LETTER U WITH DIAERESIS        |
+| ý    | `\u{00FD}` | LATIN SMALL LETTER Y WITH ACUTE            |
+| þ    | `\u{00FE}` | LATIN SMALL LETTER THORN                   |
+| ÿ    | `\u{00FF}` | LATIN SMALL LETTER Y WITH DIAERESIS        |
+
+## CJK Compatibility (111)
+
+| Char | Escape     | Name                      |
+|------|------------|---------------------------|
+| ㍱   | `\u{3371}` | SQUARE HPA                |
+| ㍲   | `\u{3372}` | SQUARE DA                 |
+| ㍳   | `\u{3373}` | SQUARE AU                 |
+| ㍴   | `\u{3374}` | SQUARE BAR                |
+| ㍵   | `\u{3375}` | SQUARE OV                 |
+| ㍶   | `\u{3376}` | SQUARE PC                 |
+| ㍷   | `\u{3377}` | SQUARE DM                 |
+| ㍸   | `\u{3378}` | SQUARE DM SQUARED         |
+| ㍹   | `\u{3379}` | SQUARE DM CUBED           |
+| ㍺   | `\u{337A}` | SQUARE IU                 |
+| ㍻   | `\u{337B}` | SQUARE ERA NAME HEISEI    |
+| ㍼   | `\u{337C}` | SQUARE ERA NAME SYOUWA    |
+| ㍽   | `\u{337D}` | SQUARE ERA NAME TAISYOU   |
+| ㍾   | `\u{337E}` | SQUARE ERA NAME MEIZI     |
+| ㍿   | `\u{337F}` | SQUARE CORPORATION        |
+| ㎀   | `\u{3380}` | SQUARE PA AMPS            |
+| ㎁   | `\u{3381}` | SQUARE NA                 |
+| ㎂   | `\u{3382}` | SQUARE MU A               |
+| ㎃   | `\u{3383}` | SQUARE MA                 |
+| ㎄   | `\u{3384}` | SQUARE KA                 |
+| ㎅   | `\u{3385}` | SQUARE KB                 |
+| ㎆   | `\u{3386}` | SQUARE MB                 |
+| ㎇   | `\u{3387}` | SQUARE GB                 |
+| ㎈   | `\u{3388}` | SQUARE CAL                |
+| ㎉   | `\u{3389}` | SQUARE KCAL               |
+| ㎊   | `\u{338A}` | SQUARE PF                 |
+| ㎋   | `\u{338B}` | SQUARE NF                 |
+| ㎌   | `\u{338C}` | SQUARE MU F               |
+| ㎍   | `\u{338D}` | SQUARE MU G               |
+| ㎎   | `\u{338E}` | SQUARE MG                 |
+| ㎏   | `\u{338F}` | SQUARE KG                 |
+| ㎐   | `\u{3390}` | SQUARE HZ                 |
+| ㎑   | `\u{3391}` | SQUARE KHZ                |
+| ㎒   | `\u{3392}` | SQUARE MHZ                |
+| ㎓   | `\u{3393}` | SQUARE GHZ                |
+| ㎔   | `\u{3394}` | SQUARE THZ                |
+| ㎕   | `\u{3395}` | SQUARE MU L               |
+| ㎖   | `\u{3396}` | SQUARE ML                 |
+| ㎗   | `\u{3397}` | SQUARE DL                 |
+| ㎘   | `\u{3398}` | SQUARE KL                 |
+| ㎙   | `\u{3399}` | SQUARE FM                 |
+| ㎚   | `\u{339A}` | SQUARE NM                 |
+| ㎛   | `\u{339B}` | SQUARE MU M               |
+| ㎜   | `\u{339C}` | SQUARE MM                 |
+| ㎝   | `\u{339D}` | SQUARE CM                 |
+| ㎞   | `\u{339E}` | SQUARE KM                 |
+| ㎟   | `\u{339F}` | SQUARE MM SQUARED         |
+| ㎠   | `\u{33A0}` | SQUARE CM SQUARED         |
+| ㎡   | `\u{33A1}` | SQUARE M SQUARED          |
+| ㎢   | `\u{33A2}` | SQUARE KM SQUARED         |
+| ㎣   | `\u{33A3}` | SQUARE MM CUBED           |
+| ㎤   | `\u{33A4}` | SQUARE CM CUBED           |
+| ㎥   | `\u{33A5}` | SQUARE M CUBED            |
+| ㎦   | `\u{33A6}` | SQUARE KM CUBED           |
+| ㎧   | `\u{33A7}` | SQUARE M OVER S           |
+| ㎨   | `\u{33A8}` | SQUARE M OVER S SQUARED   |
+| ㎩   | `\u{33A9}` | SQUARE PA                 |
+| ㎪   | `\u{33AA}` | SQUARE KPA                |
+| ㎫   | `\u{33AB}` | SQUARE MPA                |
+| ㎬   | `\u{33AC}` | SQUARE GPA                |
+| ㎭   | `\u{33AD}` | SQUARE RAD                |
+| ㎮   | `\u{33AE}` | SQUARE RAD OVER S         |
+| ㎯   | `\u{33AF}` | SQUARE RAD OVER S SQUARED |
+| ㎰   | `\u{33B0}` | SQUARE PS                 |
+| ㎱   | `\u{33B1}` | SQUARE NS                 |
+| ㎲   | `\u{33B2}` | SQUARE MU S               |
+| ㎳   | `\u{33B3}` | SQUARE MS                 |
+| ㎴   | `\u{33B4}` | SQUARE PV                 |
+| ㎵   | `\u{33B5}` | SQUARE NV                 |
+| ㎶   | `\u{33B6}` | SQUARE MU V               |
+| ㎷   | `\u{33B7}` | SQUARE MV                 |
+| ㎸   | `\u{33B8}` | SQUARE KV                 |
+| ㎹   | `\u{33B9}` | SQUARE MV MEGA            |
+| ㎺   | `\u{33BA}` | SQUARE PW                 |
+| ㎻   | `\u{33BB}` | SQUARE NW                 |
+| ㎼   | `\u{33BC}` | SQUARE MU W               |
+| ㎽   | `\u{33BD}` | SQUARE MW                 |
+| ㎾   | `\u{33BE}` | SQUARE KW                 |
+| ㎿   | `\u{33BF}` | SQUARE MW MEGA            |
+| ㏀   | `\u{33C0}` | SQUARE K OHM              |
+| ㏁   | `\u{33C1}` | SQUARE M OHM              |
+| ㏂   | `\u{33C2}` | SQUARE AM                 |
+| ㏃   | `\u{33C3}` | SQUARE BQ                 |
+| ㏄   | `\u{33C4}` | SQUARE CC                 |
+| ㏅   | `\u{33C5}` | SQUARE CD                 |
+| ㏆   | `\u{33C6}` | SQUARE C OVER KG          |
+| ㏇   | `\u{33C7}` | SQUARE CO                 |
+| ㏈   | `\u{33C8}` | SQUARE DB                 |
+| ㏉   | `\u{33C9}` | SQUARE GY                 |
+| ㏊   | `\u{33CA}` | SQUARE HA                 |
+| ㏋   | `\u{33CB}` | SQUARE HP                 |
+| ㏌   | `\u{33CC}` | SQUARE IN                 |
+| ㏍   | `\u{33CD}` | SQUARE KK                 |
+| ㏎   | `\u{33CE}` | SQUARE KM CAPITAL         |
+| ㏏   | `\u{33CF}` | SQUARE KT                 |
+| ㏐   | `\u{33D0}` | SQUARE LM                 |
+| ㏑   | `\u{33D1}` | SQUARE LN                 |
+| ㏒   | `\u{33D2}` | SQUARE LOG                |
+| ㏓   | `\u{33D3}` | SQUARE LX                 |
+| ㏔   | `\u{33D4}` | SQUARE MB SMALL           |
+| ㏕   | `\u{33D5}` | SQUARE MIL                |
+| ㏖   | `\u{33D6}` | SQUARE MOL                |
+| ㏗   | `\u{33D7}` | SQUARE PH                 |
+| ㏘   | `\u{33D8}` | SQUARE PM                 |
+| ㏙   | `\u{33D9}` | SQUARE PPM                |
+| ㏚   | `\u{33DA}` | SQUARE PR                 |
+| ㏛   | `\u{33DB}` | SQUARE SR                 |
+| ㏜   | `\u{33DC}` | SQUARE SV                 |
+| ㏝   | `\u{33DD}` | SQUARE WB                 |
+| ㏞   | `\u{33DE}` | SQUARE V OVER M           |
+| ㏟   | `\u{33DF}` | SQUARE A OVER M           |
 
