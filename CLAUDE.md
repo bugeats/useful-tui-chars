@@ -1,17 +1,16 @@
 # chars
 
-A simple rust program that generates a list of useful ASCII and ANSI box drawing characters for the purposed of building a TUI.
+Rust program that prints TUI-relevant Unicode characters in aligned markdown tables: glyph, Rust escape, official Unicode name.
 
-Output should be a in table column format. Example:
+Character names from `unicode_names2` (Unicode Character Database). Display widths from `unicode-width` for terminal-accurate column alignment.
 
-```
-├    \u{251C}     Light vertical and right
-┝    \u{251D}     Vertical light and right heavy
-┞    \u{251E}     Up heavy and right down light  
-```
+## Architecture
 
-Where the middle column is the Rust string escape format.
+- `flake.nix` — crane-based Nix build. `nix run` produces the table.
+- `src/main.rs` — `BlockRange` and `CharEntry` types. Construction pre-computes entries and column widths; `Display for BlockRange` renders each section.
+- 14 blocks in `RANGES` (code-point order): Greek/Coptic, Letterlike Symbols, Arrows, Math Operators, Misc Technical, Enclosed Alphanumerics, Box Drawing, Block Elements, Geometric Shapes, Misc Symbols, Dingbats, Braille, Misc Symbols & Arrows, Legacy Computing.
+- Output is a full markdown document: `# Useful TUI Characters`, provenance note, TOC with anchor links, then `## Block (count)` sections.
 
 ## Current Focus
 
-Init a new Rust flake using cranelib. `nix run` should generate the list.
+Feature-complete as a reference document. Potential next: filter to useful subset, pipe to file.
