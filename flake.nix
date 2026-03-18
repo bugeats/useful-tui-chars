@@ -18,12 +18,20 @@
         pkgs = nixpkgs.legacyPackages.${system};
         craneLib = crane.mkLib pkgs;
 
-        chars = craneLib.buildPackage {
+        pkg = craneLib.buildPackage {
           src = craneLib.cleanCargoSource ./.;
         };
       in
       {
-        packages.default = chars;
+        packages.default = pkg;
+
+        packages.readme = pkgs.runCommand "README.md" { } ''
+          {
+            echo '> Generated from `nix run github:bugeats/useful-tui-chars`'
+            echo
+            ${pkg}/bin/useful-tui-chars
+          } > $out
+        '';
 
         devShells.default = craneLib.devShell {
           packages = [ pkgs.rust-analyzer ];

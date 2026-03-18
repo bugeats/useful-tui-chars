@@ -1,4 +1,4 @@
-# chars
+# useful-tui-chars
 
 Rust program that prints TUI-relevant Unicode characters in aligned markdown tables: glyph, Rust escape, official Unicode name.
 
@@ -6,11 +6,12 @@ Character names from `unicode_names2` (Unicode Character Database). Display widt
 
 ## Architecture
 
-- `flake.nix` — crane-based Nix build. `nix run` produces the table.
-- `src/main.rs` — `BlockRange` and `CharEntry` types. Construction pre-computes entries and column widths; `Display for BlockRange` renders each section.
-- 14 blocks in `RANGES` (code-point order): Greek/Coptic, Letterlike Symbols, Arrows, Math Operators, Misc Technical, Enclosed Alphanumerics, Box Drawing, Block Elements, Geometric Shapes, Misc Symbols, Dingbats, Braille, Misc Symbols & Arrows, Legacy Computing.
-- Output is a full markdown document: `# Useful TUI Characters`, provenance note, TOC with anchor links, then `## Block (count)` sections.
+- `flake.nix` — crane-based Nix build. `nix run` produces the table. `packages.readme` generates README content.
+- `publish.sh` — builds the `readme` derivation and copies result to `README.md`.
+- `src/main.rs` — `RANGES` constant (14 Unicode blocks) and entry point. Passes ranges to `Document::new`.
+- `src/document.rs` — `Document` type. Constructed from range tuples, `Display` renders full markdown (title, provenance, TOC, sections).
+- `src/block.rs` — `BlockRange` (`From` tuple) and `CharEntry` (`From` char). `Display for BlockRange` renders one section table.
 
 ## Current Focus
 
-Feature-complete as a reference document. Potential next: filter to useful subset, pipe to file.
+Feature-complete. `./publish.sh` regenerates README.md from the `readme` flake output. Potential next: filter to useful subset, CI-driven readme regeneration.
