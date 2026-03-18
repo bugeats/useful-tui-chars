@@ -20,6 +20,7 @@ const RANGES: &[(&str, u32, u32)] = &[
     ("Symbols for Legacy Computing", 0x1FB00, 0x1FBFF),
     ("Latin-1 Supplement", 0x00A0, 0x00FF),
     ("CJK Compatibility", 0x3371, 0x33DF),
+    ("General Punctuation", 0x2000, 0x206F),
 ];
 
 fn main() {

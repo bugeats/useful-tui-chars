@@ -21,6 +21,7 @@ Character names are official designations from the [Unicode Character Database](
 - [Symbols for Legacy Computing](#symbols-for-legacy-computing-256) (256)
 - [Latin-1 Supplement](#latin-1-supplement-96) (96)
 - [CJK Compatibility](#cjk-compatibility-111) (111)
+- [General Punctuation](#general-punctuation-112) (112)
 
 ## Box Drawing (128)
 
@@ -2788,4 +2789,121 @@ Character names are official designations from the [Unicode Character Database](
 | ㏝   | `\u{33DD}` | SQUARE WB                 |
 | ㏞   | `\u{33DE}` | SQUARE V OVER M           |
 | ㏟   | `\u{33DF}` | SQUARE A OVER M           |
+
+## General Punctuation (112)
+
+| Char | Escape     | Name                                       |
+|------|------------|--------------------------------------------|
+|      | `\u{2000}` | EN QUAD                                    |
+|      | `\u{2001}` | EM QUAD                                    |
+|      | `\u{2002}` | EN SPACE                                   |
+|      | `\u{2003}` | EM SPACE                                   |
+|      | `\u{2004}` | THREE-PER-EM SPACE                         |
+|      | `\u{2005}` | FOUR-PER-EM SPACE                          |
+|      | `\u{2006}` | SIX-PER-EM SPACE                           |
+|      | `\u{2007}` | FIGURE SPACE                               |
+|      | `\u{2008}` | PUNCTUATION SPACE                          |
+|      | `\u{2009}` | THIN SPACE                                 |
+|      | `\u{200A}` | HAIR SPACE                                 |
+| ​     | `\u{200B}` | ZERO WIDTH SPACE                           |
+| ‌     | `\u{200C}` | ZERO WIDTH NON-JOINER                      |
+| ‍     | `\u{200D}` | ZERO WIDTH JOINER                          |
+| ‎     | `\u{200E}` | LEFT-TO-RIGHT MARK                         |
+| ‏     | `\u{200F}` | RIGHT-TO-LEFT MARK                         |
+| ‐    | `\u{2010}` | HYPHEN                                     |
+| ‑    | `\u{2011}` | NON-BREAKING HYPHEN                        |
+| ‒    | `\u{2012}` | FIGURE DASH                                |
+| –    | `\u{2013}` | EN DASH                                    |
+| —    | `\u{2014}` | EM DASH                                    |
+| ―    | `\u{2015}` | HORIZONTAL BAR                             |
+| ‖    | `\u{2016}` | DOUBLE VERTICAL LINE                       |
+| ‗    | `\u{2017}` | DOUBLE LOW LINE                            |
+| ‘    | `\u{2018}` | LEFT SINGLE QUOTATION MARK                 |
+| ’    | `\u{2019}` | RIGHT SINGLE QUOTATION MARK                |
+| ‚    | `\u{201A}` | SINGLE LOW-9 QUOTATION MARK                |
+| ‛    | `\u{201B}` | SINGLE HIGH-REVERSED-9 QUOTATION MARK      |
+| “    | `\u{201C}` | LEFT DOUBLE QUOTATION MARK                 |
+| ”    | `\u{201D}` | RIGHT DOUBLE QUOTATION MARK                |
+| „    | `\u{201E}` | DOUBLE LOW-9 QUOTATION MARK                |
+| ‟    | `\u{201F}` | DOUBLE HIGH-REVERSED-9 QUOTATION MARK      |
+| †    | `\u{2020}` | DAGGER                                     |
+| ‡    | `\u{2021}` | DOUBLE DAGGER                              |
+| •    | `\u{2022}` | BULLET                                     |
+| ‣    | `\u{2023}` | TRIANGULAR BULLET                          |
+| ․    | `\u{2024}` | ONE DOT LEADER                             |
+| ‥    | `\u{2025}` | TWO DOT LEADER                             |
+| …    | `\u{2026}` | HORIZONTAL ELLIPSIS                        |
+| ‧    | `\u{2027}` | HYPHENATION POINT                          |
+|      | `\u{2028}` | LINE SEPARATOR                             |
+|      | `\u{2029}` | PARAGRAPH SEPARATOR                        |
+| ‪     | `\u{202A}` | LEFT-TO-RIGHT EMBEDDING                    |
+| ‫     | `\u{202B}` | RIGHT-TO-LEFT EMBEDDING                    |
+| ‬     | `\u{202C}` | POP DIRECTIONAL FORMATTING                 |
+| ‭     | `\u{202D}` | LEFT-TO-RIGHT OVERRIDE                     |
+| ‮     | `\u{202E}` | RIGHT-TO-LEFT OVERRIDE                     |
+|      | `\u{202F}` | NARROW NO-BREAK SPACE                      |
+| ‰    | `\u{2030}` | PER MILLE SIGN                             |
+| ‱    | `\u{2031}` | PER TEN THOUSAND SIGN                      |
+| ′    | `\u{2032}` | PRIME                                      |
+| ″    | `\u{2033}` | DOUBLE PRIME                               |
+| ‴    | `\u{2034}` | TRIPLE PRIME                               |
+| ‵    | `\u{2035}` | REVERSED PRIME                             |
+| ‶    | `\u{2036}` | REVERSED DOUBLE PRIME                      |
+| ‷    | `\u{2037}` | REVERSED TRIPLE PRIME                      |
+| ‸    | `\u{2038}` | CARET                                      |
+| ‹    | `\u{2039}` | SINGLE LEFT-POINTING ANGLE QUOTATION MARK  |
+| ›    | `\u{203A}` | SINGLE RIGHT-POINTING ANGLE QUOTATION MARK |
+| ※    | `\u{203B}` | REFERENCE MARK                             |
+| ‼    | `\u{203C}` | DOUBLE EXCLAMATION MARK                    |
+| ‽    | `\u{203D}` | INTERROBANG                                |
+| ‾    | `\u{203E}` | OVERLINE                                   |
+| ‿    | `\u{203F}` | UNDERTIE                                   |
+| ⁀    | `\u{2040}` | CHARACTER TIE                              |
+| ⁁    | `\u{2041}` | CARET INSERTION POINT                      |
+| ⁂    | `\u{2042}` | ASTERISM                                   |
+| ⁃    | `\u{2043}` | HYPHEN BULLET                              |
+| ⁄    | `\u{2044}` | FRACTION SLASH                             |
+| ⁅    | `\u{2045}` | LEFT SQUARE BRACKET WITH QUILL             |
+| ⁆    | `\u{2046}` | RIGHT SQUARE BRACKET WITH QUILL            |
+| ⁇    | `\u{2047}` | DOUBLE QUESTION MARK                       |
+| ⁈    | `\u{2048}` | QUESTION EXCLAMATION MARK                  |
+| ⁉    | `\u{2049}` | EXCLAMATION QUESTION MARK                  |
+| ⁊    | `\u{204A}` | TIRONIAN SIGN ET                           |
+| ⁋    | `\u{204B}` | REVERSED PILCROW SIGN                      |
+| ⁌    | `\u{204C}` | BLACK LEFTWARDS BULLET                     |
+| ⁍    | `\u{204D}` | BLACK RIGHTWARDS BULLET                    |
+| ⁎    | `\u{204E}` | LOW ASTERISK                               |
+| ⁏    | `\u{204F}` | REVERSED SEMICOLON                         |
+| ⁐    | `\u{2050}` | CLOSE UP                                   |
+| ⁑    | `\u{2051}` | TWO ASTERISKS ALIGNED VERTICALLY           |
+| ⁒    | `\u{2052}` | COMMERCIAL MINUS SIGN                      |
+| ⁓    | `\u{2053}` | SWUNG DASH                                 |
+| ⁔    | `\u{2054}` | INVERTED UNDERTIE                          |
+| ⁕    | `\u{2055}` | FLOWER PUNCTUATION MARK                    |
+| ⁖    | `\u{2056}` | THREE DOT PUNCTUATION                      |
+| ⁗    | `\u{2057}` | QUADRUPLE PRIME                            |
+| ⁘    | `\u{2058}` | FOUR DOT PUNCTUATION                       |
+| ⁙    | `\u{2059}` | FIVE DOT PUNCTUATION                       |
+| ⁚    | `\u{205A}` | TWO DOT PUNCTUATION                        |
+| ⁛    | `\u{205B}` | FOUR DOT MARK                              |
+| ⁜    | `\u{205C}` | DOTTED CROSS                               |
+| ⁝    | `\u{205D}` | TRICOLON                                   |
+| ⁞    | `\u{205E}` | VERTICAL FOUR DOTS                         |
+|      | `\u{205F}` | MEDIUM MATHEMATICAL SPACE                  |
+| ⁠     | `\u{2060}` | WORD JOINER                                |
+| ⁡     | `\u{2061}` | FUNCTION APPLICATION                       |
+| ⁢     | `\u{2062}` | INVISIBLE TIMES                            |
+| ⁣     | `\u{2063}` | INVISIBLE SEPARATOR                        |
+| ⁤     | `\u{2064}` | INVISIBLE PLUS                             |
+| ⁥     | `\u{2065}` |                                            |
+| ⁦     | `\u{2066}` | LEFT-TO-RIGHT ISOLATE                      |
+| ⁧     | `\u{2067}` | RIGHT-TO-LEFT ISOLATE                      |
+| ⁨     | `\u{2068}` | FIRST STRONG ISOLATE                       |
+| ⁩     | `\u{2069}` | POP DIRECTIONAL ISOLATE                    |
+| ⁪     | `\u{206A}` | INHIBIT SYMMETRIC SWAPPING                 |
+| ⁫     | `\u{206B}` | ACTIVATE SYMMETRIC SWAPPING                |
+| ⁬     | `\u{206C}` | INHIBIT ARABIC FORM SHAPING                |
+| ⁭     | `\u{206D}` | ACTIVATE ARABIC FORM SHAPING               |
+| ⁮     | `\u{206E}` | NATIONAL DIGIT SHAPES                      |
+| ⁯     | `\u{206F}` | NOMINAL DIGIT SHAPES                       |
 
